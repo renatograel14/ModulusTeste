@@ -12,5 +12,5 @@ app.use(express.static(__dirname + '/public'));
 require('./server/ddata.js');
 
 var port = process.env.PORT || 8080;
-app.listen(process.env.PORT)
+app.listen(port)
 console.log('Express server started on port %s', port);
